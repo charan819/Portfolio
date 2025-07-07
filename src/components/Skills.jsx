@@ -23,6 +23,7 @@ import {
   SiGit,
   SiDocker,
   SiApachekafka,
+  SiAngular,
   // SiAmazonec2,
   // SiAmazonecs,
   // SiAmazonaws,
@@ -243,6 +244,7 @@ const SkillsSection = () => {
   "Frameworks & Libraries": [
     { name: "React.js", color: "bg-cyan-500", icon: SiReact, description: "Component-driven frontend library used in all major frontend projects." },
     { name: "Redux", color: "bg-purple-600", icon: SiRedux, description: "Used for global state management in large React applications." },
+    { name: "Angular", color: "bg-red-600", icon: SiAngular, description: "Used as a framework in MEAN app to get a better understanding "},
     { name: "Spring & Spring Boot", color: "bg-emerald-600", icon: SiSpringboot , description: "Used for developing scalable microservices and RESTful APIs." },
     { name: "Node.js", color: "bg-lime-600", icon: FaNodeJs, description: "Built APIs and backend logic for MERN stack and task management apps." },
     { name: "Express.js", color: "bg-lime-700", icon: FaNodeJs, description: "Backend framework for Node.js projects." },

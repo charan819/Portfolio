@@ -174,9 +174,17 @@ const projectList = [
     name: "Image Cartoonification",
     description:
       "CNN-based deep learning app that transforms high-resolution images into 40+ cartoon styles. Flask backend handles 30+ concurrent requests with 850ms average response time. Includes 5 neural style transfer options boosting engagement by 65%.",
-    // githubLink: "https://github.com/charan819/image-cartoonification",
+     githubLink: "https://github.com/charan819/image_cartoonifier",
     tech: ["CNN", "Flask", "TensorFlow", "Keras"]
-  }
+  },
+  {
+  id: 7,
+  name: "Address Book App (MEAN)",
+  description:
+    "Full-stack web application for managing personal contacts. Built with Angular frontend and Node.js, Express, and MongoDB backend. Features secure JWT authentication, responsive UI, and token-protected RESTful APIs.",
+   githubLink: "https://github.com/charan819/address_book",
+  tech: ["Angular", "Node.js", "Express", "MongoDB", "JWT"]
+}
 ];
 
 

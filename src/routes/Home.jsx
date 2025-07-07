@@ -26,21 +26,21 @@ const projectList = [
     // githubLink: "https://github.com/charan819/medicine-tracker",
     tech: ["Python", "Flask", "HTML", "CSS", "Chart.js"]
   },
-  {
-    id: 3,
-    name: "Travel Journal App (MERN)",
-    description: "Rich-text journaling platform with Cloudinary image uploads and secure login.",
-    githubLink: "https://github.com/charan819/travel-journal-app",
-    tech: ["MongoDB", "Express.js", "React", "Node.js", "Cloudinary"]
-  },
   // {
-  //   id: 4,
-  //   name: "Live Script Compiler",
-  //   description: "Responsive web-based code editor with real-time preview, supporting HTML/CSS/JS and Ace Editor.",
-  //   githubLink: "https://github.com/charan819/live-script-compiler",
-  //   tech: ["HTML", "CSS", "JavaScript", "GitHub Pages", "Ace Editor"]
+  //   id: 3,
+  //   name: "Travel Journal App (MERN)",
+  //   description: "Rich-text journaling platform with Cloudinary image uploads and secure login.",
+  //   githubLink: "https://github.com/charan819/travel-journal-app",
+  //   tech: ["MongoDB", "Express.js", "React", "Node.js", "Cloudinary"]
   // },
-  // {
+  {
+    id: 4,
+    name: "Live Script Compiler",
+    description: "Responsive web-based code editor with real-time preview, supporting HTML/CSS/JS and Ace Editor.",
+    githubLink: "https://github.com/charan819/live-script-compiler",
+    tech: ["HTML", "CSS", "JavaScript", "GitHub Pages", "Ace Editor"]
+  }
+  // ,{
   //   id: 5,
   //   name: "Task Manager Web App",
   //   description: "Kanban-style task manager with real-time Firebase sync, drag-and-drop UI, and productivity dashboard.",
