@@ -142,8 +142,8 @@ const projectList = [
     name: "Medicine Prescription Tracker",
     description:
       "Cross-platform healthcare system for tracking medications and 10+ health metrics across devices with 98% data reliability. Includes smart reminders delivering 1000+ monthly notifications (SMS, email, push), AI-driven health insights, multilingual support (5+ languages), and emergency services, improving user engagement by 35% over 2 months.",
-    // githubLink: "https://github.com/charan819/medicine-tracker",
-    tech: ["Python", "Flask", "HTML", "CSS", "Chart.js"]
+     githubLink: "https://github.com/charan819/Medication_Tracker",
+    tech: ["Python", "Flask", "HTML", "CSS", "Javascript"]
   },
   {
     id: 3,

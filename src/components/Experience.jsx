@@ -17,6 +17,7 @@ const ExperienceCard = ({
   location,
   description,
   skills,
+  credential_id,
   link,
 }) => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -102,6 +103,14 @@ const ExperienceCard = ({
                 </div>
               </div>
 
+              {credential_id && (
+  <div className="flex items-center gap-1 text-sm text-neutral-600 dark:text-neutral-400">
+    <span>Credential ID:</span> 
+    <span className="font-mono">{credential_id}</span>
+  </div>
+)}
+
+
               {shouldShowLink && (
                 <motion.a
                   href={link}
@@ -175,6 +184,19 @@ const Experience = () => {
 ],
     certifications: [
   {
+    role: "Certified Amazon Solutions Architect - Associate",
+    company: "Amazon Web Services",
+    date: "July 2025",
+    location: "Online",
+    description: [
+      "Verified core cloud knowledge in AWS compute, networking, storage, and database services.",
+      "Validated expertise in designing cost-efficient, fault-tolerant, and scalable distributed systems on AWS, with proficiency in the AWS Well-Architected Framework, VPC, EC2, S3, RDS, and IAM."
+    ],
+    skills: ["AWS", "Cloud", "IAM", "VPC", "EC2", "RDS", "ECS", "Lambda", "SQS", "DynamoDB", "CloudWatch", "Glue"],
+    credential_id: "85c244b4cd7b4663afaeb47aedf498e0",
+    link: "https://aws.amazon.com/verification"
+  },
+  {
     role: "Amazon Junior Software Developer",
     company: "Amazon",
     date: "April 2025",
@@ -184,7 +206,7 @@ const Experience = () => {
       "Covered cloud development principles, debugging, and software lifecycle management."
     ],
     skills: ["Java", "Cloud", "Development", "Debugging", "DataStructures"],
-    link: "https://www.amazon.jobs/en/landing_pages/skills-certification"
+    link: "https://www.coursera.org/professional-certificates/amazon-junior-software-developer/paidmedia?utm_medium=sem&utm_source=gg&utm_campaign=b2c_namer_amazon-junior-software-developer_amazon_ftcof_professional-certificates_px_dr_bau_gg_sem_pr_us-ca_en_m_hyb_24-11_x&campaignid=21927546666&adgroupid=173878923354&device=c&keyword=coursera%20amazon%20junior%20software%20developer&matchtype=b&network=g&devicemodel=&creativeid=722396102299&assetgroupid=&targetid=kwd-2376393090923&extensionid=&placement=&gad_source=1&gad_campaignid=21927546666&gbraid=0AAAAADdKX6bgWRfZkA2fOADZ4tZYXGDUt&gclid=Cj0KCQjw-NfDBhDyARIsAD-ILeBUGAMdgSeGO90RDiFXNVmOvGoiAMHNuOsppHHuye1zqzSWG-E7uXsaAtfVEALw_wcB"
   },
   {
     role: "Certified Amazon Cloud Practitioner",
@@ -195,8 +217,9 @@ const Experience = () => {
       "Verified foundational cloud knowledge in AWS compute, networking, storage, and database.",
       "Assessed security best practices, billing models, and support tiers."
     ],
-    skills: ["AWS", "Cloud", "IAM", "VPC", "EC2", "RDS"],
-    link: "https://aws.amazon.com/certification/certified-cloud-practitioner/"
+    skills: ["AWS", "Cloud", "IAM", "VPC", "EC2", "RDS", "ECS", "Lambda", "SQS", "DynamoDB", "CloudWatch", "Glue"],
+    credential_id: "8210f265aac740bcac78a01fa451c3ec",
+    link: "https://aws.amazon.com/verification"
   },
   {
     role: "Master Java Programming - Complete Beginner to Advanced",
